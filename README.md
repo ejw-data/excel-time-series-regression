@@ -16,4 +16,7 @@ Example showcasing how to incorporate time dependent data into a multiregression
 *  Excel
 *  Stats Toolkit Add-on
 
+## References  
+
+1.  https://constructionphysics.substack.com/p/looking-at-energy-use-in-us-residential  
 <br>
