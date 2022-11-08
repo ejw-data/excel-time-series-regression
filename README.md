@@ -13,7 +13,9 @@ Example showcasing how to incorporate time dependent data into a multiregression
 <br>
 
 ## Analysis
-*  Dataset generated works well.  The dataset should have a very high R<sup>2</sup>.  Since the dataset is designed to include time series, by dedimensionalizing the time series the linear fit goes up a bit - from 0.99 to 0.9999. 
+*  Dataset generated works well.  The dataset should have a very high R<sup>2</sup>.  Since the dataset is designed to include time series, by dedimensionalizing the time series the linear fit goes up a bit - from 0.99 to 0.9999.  
+
+*  The time series feature of the dataset is the outside temperature measurement.  To make the the energy usage of the home dependent on the historical measurement of the temperature, the average temperature across three hours was used to calculate the heat flux of the house with a standard internal house temperature of 73<sup>o</sup>F.  To account for these historical influences, three features representing the heat flux were created - 1) flux 2 hours before, 2) flux 1 hour before, and 3) the current heat flux of the current hour.  Each feature was modeled as a historical trend for each record.  
 
 ## Next Stages
 1.  Add randomness into the dataset features and test regression models.
