@@ -3,6 +3,7 @@
 Author:  Erin James Wills, ejw.data@gmail.com  
 
 ![Regression](./images/time-series-regression.png)  
+<cite>Photo by [Jack B](https://unsplash.com/@nervum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/stock-market?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</cite> 
 
 <br>
 
